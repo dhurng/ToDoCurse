@@ -3,14 +3,6 @@
 You are putting together a new startup to disrupt the lucrative billion-dollar market of Todo applications. 
 In order to raise VC funding, you have to come up with a proof-of-concept app in order to dazzle the investors. 
 As part of the technical screen, you will be developing just such a prototype.
-
-Before the call, we ask that you produce the first cut of the Todo application. At a minimum, it must support adding a 
-todo, deleting a todo and viewing all todo records. We will be using this code to drive the rest of the screen.
-
-The format is up to you - it can be a web app, a desktop app or a console application, as long as a non-technical user 
-can interact with it. Feel free to use whatever language and framework you're most comfortable with. Data can be stored 
-in memory, you don't have to use external storage. Don't spend too much time on this project skeleton - we will be 
-concentrating on what you accomplish during the call itself, so keep things simple.
 """
 import curses, datetime, operator, json
 from sys import argv
